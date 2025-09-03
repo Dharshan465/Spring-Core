@@ -27,3 +27,24 @@ This project demonstrates the core concepts of Spring Framework's Inversion of C
     *   Retrieves specific `OrderService` beans (`normalOrderService`, `primeOrderService`) from the context.
     *   Simulates placing orders to demonstrate how the injected dependencies (payment and notification types) vary based on the `OrderService` implementation.
 
+## Project Structure:
+
+assignment12/
+    └── OnlineFoodDeliveryApplication/
+                       ├── config/
+                       │   └── AppConfig.java
+                       ├── order/
+                       │   ├── NormalOrderService.java
+                       │   ├── OrderService.java
+                       │   └── PrimeOrderService.java
+                       ├── payment/
+                       │   ├── CardPaymentProcessor.java
+                       │   ├── PaymentProcessor.java
+                       │   └── UPIPaymentProcessor.java
+                       ├── notification/
+                       │   ├── EmailNotificationService.java
+                       │   ├── NotificationService.java
+                       │   └── SMSNotificationService.java
+                       └── MainApp.java
+                       └── assignment12.md
+
