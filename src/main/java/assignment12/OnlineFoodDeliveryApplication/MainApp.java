@@ -8,7 +8,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class MainApp {
     public static void main(String[] args) {
         System.out.println("---------------------------------------------------------");
-        System.out.println("Welcome to the Online Food Delivery Application!");
+        System.out.println("Online Food Delivery Application!");
         System.out.println("---------------------------------------------------------");
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
